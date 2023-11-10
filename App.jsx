@@ -3,8 +3,8 @@ import {
   SafeAreaView,
 } from 'react-native';
 
-import ToDoList from './ToDoList';
-import ToDoForm from './ToDoForm';
+import ToDoList from './src/ToDoList';
+import ToDoForm from './src/ToDoForm';
 
 function App() {
 
