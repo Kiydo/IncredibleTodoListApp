@@ -29,7 +29,7 @@ function ToDoForm({ onAddTask }) {
                 value={newTask}
                 onChangeText={(text) => setNewTask(text)}
                 />
-                <Button title="Add" onPress={addTask}/>
+                <Button title="Add" onPress={() => addTask(newTask)}/>
                 {/* <ToDoList onAddTask={addTask}/> */}
             </View>
         </SafeAreaView>
